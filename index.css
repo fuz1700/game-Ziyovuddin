@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP7j2WuuNCUnCwLsyyFCLy0WK8a8iLEgBHUA&s);
+}
+.game {
+  width: 646px;
+  height: 224px;
+  border: 2px solid black;
+  margin: 200px auto;
+  border-radius: 30px;
+}
+.game{
+  background: url(https://wallpapers-clan.com/wp-content/uploads/2024/03/starfall-night-sky-mountains-aesthetic-gif-cover-desktop-wallpaper.gif);
+}
+.dino {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 150px;
+  left: 30px;
+  z-index: 99;
+  background: url('https://media.tenor.com/0o0T8nh8W4EAAAAi/sonic-is-runinng-run.gif')
+    no-repeat center center/cover;
+}
+.count{
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  margin-top: 10%;
+}
+
+.cactus {
+  width: 30px;
+  height: 85px;
+  position: relative;
+  top: 90px;
+  left: 580px;
+  background: url('https://pngimg.com/uploads/cactus/cactus_PNG23622.png')
+    no-repeat center center/cover;
+  background-size: 30px 40px;
+  animation: cactus 1s infinite linear;
+}
+
+.jump {
+  animation: jump 0.3s linear;
+}
+
+@keyframes cactus {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: -20px;
+  }
+}
+
+@keyframes jump {
+  0% {
+    top: 150px;
+  }
+  30% {
+    top: 70px;
+  }
+  80% {
+    top: 115px;
+  }
+  100% {
+    top: 150px;
+  }
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+  text-align: center;
+  padding-top: 100px;
+  background: url('https://static.vecteezy.com/system/resources/thumbnails/000/524/720/small/cartoon-funny-seamless-wide-fantasy-landscape.jpg')
+    no-repeat center center/cover;
+  h1 {
+    font-size: 50px;
+    color: #b6ce2d;
+font-family: 'Times New Roman', Times, serif;  }
+  a{
+    color: lime;
+    font-size: 100px;
+    font-weight: 900;
+font-family: 'Times New Roman', Times, serif;
+
+  }
+}
